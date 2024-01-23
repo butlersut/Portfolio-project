@@ -74,4 +74,9 @@
    .email-link:hover {
     text-decoration: underline;
   }
- 
+
+  .hero {
+    background: #9d7dee;
+    text-align: center;
+
+  }
