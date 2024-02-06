@@ -142,3 +142,40 @@
     font-size: 14px;
 
   }
+  .logo {
+    max-width: 150px;
+  }
+
+  nav {
+    padding: 20px 0;
+
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a {
+text-decoration: none;
+color: #272142;
+transition: all 120ms ease-in-out;
+}
+
+nav a:hover, 
+nav li.active a {
+color: var(--branding-color);
+}
+
+.yoga-pic, .weather-pic, .dictionary-pic {
+  height: 250px;
+  padding: 20px 45px;
+  border-radius: 30px;
+}
